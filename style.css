@@ -5,13 +5,12 @@
 
 
 .score{
-    
-    Background:rgb(16, 214, 16);
+    Background:rgb(31, 133, 31);
     margin:0 auto;
     width:400px;
-    height:50px;
+    height:8vh;
     border-style:dotted;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 15px;
     border-color:rgb(16, 18, 19);
     text-align: center;
@@ -55,6 +54,11 @@ body{
   color: rgb(255, 255, 255);
   font-size: 65px;
   font: cursive;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(30, 129, 48, 0.46);
     
 
 }
@@ -70,7 +74,7 @@ body{
 
 .gameArea{
    width: 400px;
-   height: 100vh; 
+   height: 91vh; 
    background: #2c3e50;
    margin: auto;
    position: relative;
