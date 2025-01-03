@@ -1,7 +1,7 @@
 const score = document.querySelector('.score');
 const startScreen = document.querySelector('.startScreen');
 const gameArea = document.querySelector('.gameArea');
-let player = {speed : 7, score:0};
+let player = {speed : 5, score:0};
 
 let keys = { ArrowUp : false, ArrowDown : false, ArrowRight : false,ArrowLeft : false}
 
